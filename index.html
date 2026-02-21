@@ -18,11 +18,15 @@ nav{position:fixed;top:0;left:0;right:0;z-index:400;display:flex;align-items:cen
 nav.solid{background:rgba(250,246,238,.97);border-color:rgba(90,48,16,.1);backdrop-filter:blur(8px);}
 .nav-logo{display:flex;align-items:center;gap:14px;text-decoration:none;}
 .nav-logo-text{display:flex;flex-direction:column;line-height:1.1;}
-.nav-logo-name{font-family:'Cinzel',serif;font-size:1.25rem;font-weight:900;color:var(--brun);letter-spacing:.08em;}
-.nav-logo-tagline{font-family:'Jost',sans-serif;font-size:.46rem;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:var(--brun-pale);margin-top:2px;}
+.nav-logo-name{font-family:'Cinzel',serif;font-size:1.25rem;font-weight:900;color:#fff;letter-spacing:.08em;transition:color .4s;}
+.nav-logo-tagline{font-family:'Jost',sans-serif;font-size:.46rem;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.7);margin-top:2px;transition:color .4s;}
+nav.solid .nav-logo-name{color:var(--brun);}
+nav.solid .nav-logo-tagline{color:var(--brun-pale);}
 .nav-links{display:flex;gap:30px;list-style:none;align-items:center;}
-.nav-links a{font-family:'Jost',sans-serif;font-size:.64rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--texte);text-decoration:none;transition:color .25s;}
-.nav-links a:hover{color:var(--brun);}
+.nav-links a{font-family:'Jost',sans-serif;font-size:.64rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:#fff;text-decoration:none;transition:color .4s;}
+.nav-links a:hover{color:var(--or);}
+nav.solid .nav-links a{color:var(--texte);}
+nav.solid .nav-links a:hover{color:var(--brun);}
 .nav-reserve{background:var(--brun)!important;color:var(--creme)!important;padding:9px 22px;}
 
 .hero{min-height:100vh;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#1a0d05;}
