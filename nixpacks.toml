@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["nginx"]
+cmds = ["mkdir -p /etc/nginx/conf.d /var/log/nginx /var/cache/nginx /run"]
+
+[start]
+cmd = "sed -i \"s/listen 80/listen ${PORT:-80}/g\" /app/nginx.conf && nginx -c /app/nginx.conf -g 'daemon off;'"
