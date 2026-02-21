@@ -1,0 +1,12 @@
+.git
+.github
+.claude
+.agent
+.gemini
+_bmad
+_bmad-output
+docs
+Dockerfile
+.dockerignore
+nginx.conf
+*.md
