@@ -8,5 +8,5 @@ _bmad-output
 docs
 Dockerfile
 .dockerignore
-nginx.conf
+
 *.md
