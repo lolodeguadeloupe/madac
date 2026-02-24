@@ -15,11 +15,8 @@ services:
     build: .
     depends_on:
       - db
-    ports:
-      - "80:80"
     volumes:
       - wp_data:/var/www/html
-      - ./wp-content/themes/madac:/var/www/html/wp-content/themes/madac
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: ${MYSQL_USER}
