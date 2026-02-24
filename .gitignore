@@ -1,6 +1,9 @@
 # Environment
 .env
 
+# Local dev
+db-dump.sql
+
 # WordPress (managed by Docker volume, not versioned)
 # Only wp-content/themes/madac/ is tracked
 

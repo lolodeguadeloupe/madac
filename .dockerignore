@@ -2,6 +2,7 @@
 .github
 .claude
 .agent
+.agents
 .gemini
 _bmad
 _bmad-output
@@ -10,5 +11,11 @@ Dockerfile
 .dockerignore
 .env
 docker-compose.yml
+docker-compose.dev.yml
+db-dump.sql
+db-init
+index.html
+skills-lock.json
 
 *.md
+*.pdf
