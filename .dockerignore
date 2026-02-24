@@ -8,5 +8,7 @@ _bmad-output
 docs
 Dockerfile
 .dockerignore
+.env
+docker-compose.yml
 
 *.md

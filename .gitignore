@@ -1,0 +1,13 @@
+# Environment
+.env
+
+# WordPress (managed by Docker volume, not versioned)
+# Only wp-content/themes/madac/ is tracked
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
